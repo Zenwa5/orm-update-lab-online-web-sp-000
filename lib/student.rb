@@ -26,6 +26,7 @@ class Student
     DROP TABLE cats
     SQL
     DB[:conn].execute(sql)
+  end
 
 
 end
